@@ -6,6 +6,7 @@ ruby '2.7.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.6'
 
+gem 'sendgrid-ruby'
 #gem 'jquery-rails'
 #gem 'jquery-ui-rails'
 gem 'devise'
@@ -48,6 +49,7 @@ group :development, :test do
   gem 'pg'
   gem "better_errors"
   gem "binding_of_caller"
+  gem 'dotenv-rails'
 end
 
 group :development do

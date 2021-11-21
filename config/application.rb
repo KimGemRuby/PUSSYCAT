@@ -6,6 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+Dotenv::Railtie.load
+
 module PUSSYCAT
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
@@ -17,3 +19,5 @@ module PUSSYCAT
     # the framework and any gems in your application.
   end
 end
+
+
